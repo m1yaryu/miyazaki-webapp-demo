@@ -36,6 +36,24 @@ export default function Home() {
           </p>
         </div>
 
+        {/* Blog */}
+        <section id="blog">
+          <div className="text-4xl font-extrabold text-gray-900 mb-4">
+            <h2>How to use Tailwind CSS</h2>
+          </div>
+          <div className="text-black text-justify">
+            <p>
+              Hey there, fellow web creators!
+              
+              If you've spent any time building websites, you know the dance: switching between your HTML and CSS files, meticulously crafting selectors, and often finding yourself writing repetitive styles. It's a fundamental part of front-end development, but let's be honest, it can sometimes feel like a drag. What if there was a way to speed up your styling workflow, maintain consistency, and build beautiful UIs without ever leaving your HTML? Enter Tailwind CSS , the utility-first framework that's changing how many of us think about styling.
+              
+              Tailwind isn't a traditional UI kit with pre-designed components; instead, it provides a vast array of low-level utility classes directly in your markup. Want a blue background with some padding? Instead of writing a custom class and defining its styles in a separate stylesheet, you just add classes like bg-blue-500 and p-4 to your HTML element. This "utility-first" approach means you compose your designs by combining these small, focused classes. It might look a little dense at first glance, but the power lies in its efficiency: you can rapidly prototype, iterate, and build complex, responsive layouts with incredible speed, all while ensuring a consistent design system without writing a single line of custom CSS in a separate file.
+              
+              So, if you're looking to streamline your development process, build bespoke designs without fighting a framework's opinions, and enjoy a more focused styling experience, Tailwind CSS is definitely worth exploring. It's a game-changer for many, turning styling into a fluid and intuitive part of building your web projects. Give it a shot – you might just wonder how you ever lived without it!
+            </p>
+          </div>
+        </section>
+
         {/* Buttons Section */}
         <section id="buttons" className="mb-16">
           <h2 className="text-3xl font-bold text-gray-900 mb-6">Buttons</h2>
@@ -115,7 +133,7 @@ export default function Home() {
         {/* Layouts Section */}
         <section id="layouts" className="mb-16">
           <h2 className="text-3xl font-bold text-gray-900 mb-6">Layout Examples</h2>
-          
+
           {/* Grid Layout */}
           <div className="bg-white rounded-lg shadow-md p-8 mb-8">
             <h3 className="text-xl font-bold mb-4">Grid Layout</h3>
@@ -153,25 +171,25 @@ export default function Home() {
           <div className="bg-white rounded-lg shadow-md p-8">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div>
-                <img 
-                  src="https://via.placeholder.com/400x300/3B82F6/FFFFFF?text=Image+1" 
-                  alt="Placeholder" 
+                <img
+                  src="https://via.placeholder.com/400x300/3B82F6/FFFFFF?text=Image+1"
+                  alt="Placeholder"
                   className="w-full rounded-lg shadow-md"
                 />
                 <p className="mt-2 text-center font-medium">Rounded Image</p>
               </div>
               <div>
-                <img 
-                  src="https://via.placeholder.com/400x300/10B981/FFFFFF?text=Image+2" 
-                  alt="Placeholder" 
+                <img
+                  src="https://via.placeholder.com/400x300/10B981/FFFFFF?text=Image+2"
+                  alt="Placeholder"
                   className="w-full rounded-full shadow-md"
                 />
                 <p className="mt-2 text-center font-medium">Circular Image</p>
               </div>
               <div>
-                <img 
-                  src="https://via.placeholder.com/400x300/8B5CF6/FFFFFF?text=Image+3" 
-                  alt="Placeholder" 
+                <img
+                  src="https://via.placeholder.com/400x300/8B5CF6/FFFFFF?text=Image+3"
+                  alt="Placeholder"
                   className="w-full shadow-2xl"
                 />
                 <p className="mt-2 text-center font-medium">Shadow Image</p>
