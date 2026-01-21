@@ -179,7 +179,7 @@ export default function Home() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div>
                 <img
-                  src="https://via.placeholder.com/400x300/3B82F6/FFFFFF?text=Image+1"
+                  src="https://i.redd.it/9lp7g38hijeg1.jpeg"
                   alt="Placeholder"
                   className="w-full rounded-lg shadow-md"
                 />
@@ -187,15 +187,15 @@ export default function Home() {
               </div>
               <div>
                 <img
-                  src="https://via.placeholder.com/400x300/10B981/FFFFFF?text=Image+2"
+                  src="https://i.redd.it/cudv5fgoa99g1.jpeg"
                   alt="Placeholder"
                   className="w-full rounded-full shadow-md"
-                />
+                  />
                 <p className="mt-2 text-center font-medium">Circular Image</p>
               </div>
               <div>
                 <img
-                  src="https://via.placeholder.com/400x300/8B5CF6/FFFFFF?text=Image+3"
+                  src="https://i.redd.it/1htxknemqr7g1.jpeg"
                   alt="Placeholder"
                   className="w-full shadow-2xl"
                 />
