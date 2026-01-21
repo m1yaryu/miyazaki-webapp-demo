@@ -8,7 +8,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
-              <h1 className="text-2xl font-bold text-indigo-600">TailwindDemo</h1>
+              <h1 className="text-2xl font-bold text-indigo-600">Ryu's Blog</h1>
             </div>
             <div className="hidden md:flex space-x-8">
               <a href="#buttons" className="text-gray-700 hover:text-indigo-600 transition">Buttons</a>
@@ -44,11 +44,18 @@ export default function Home() {
           <div className="text-black text-justify">
             <p>
               Hey there, fellow web creators!
-              
-              If you've spent any time building websites, you know the dance: switching between your HTML and CSS files, meticulously crafting selectors, and often finding yourself writing repetitive styles. It's a fundamental part of front-end development, but let's be honest, it can sometimes feel like a drag. What if there was a way to speed up your styling workflow, maintain consistency, and build beautiful UIs without ever leaving your HTML? Enter Tailwind CSS , the utility-first framework that's changing how many of us think about styling.
-              
-              Tailwind isn't a traditional UI kit with pre-designed components; instead, it provides a vast array of low-level utility classes directly in your markup. Want a blue background with some padding? Instead of writing a custom class and defining its styles in a separate stylesheet, you just add classes like bg-blue-500 and p-4 to your HTML element. This "utility-first" approach means you compose your designs by combining these small, focused classes. It might look a little dense at first glance, but the power lies in its efficiency: you can rapidly prototype, iterate, and build complex, responsive layouts with incredible speed, all while ensuring a consistent design system without writing a single line of custom CSS in a separate file.
-              
+              <br></br>
+              If you've spent any time building websites, you know the dance: switching between your HTML and CSS files, meticulously crafting selectors, 
+              and often finding yourself writing repetitive styles. It's a fundamental part of front-end development, but let's be honest, it can sometimes 
+              feel like a drag. What if there was a way to speed up your styling workflow, maintain consistency, and build beautiful UIs without ever leaving your HTML? 
+              Enter Tailwind CSS , the utility-first framework that's changing how many of us think about styling.
+              <br></br>
+              Tailwind isn't a traditional UI kit with pre-designed components; instead, it provides a vast array of low-level utility classes directly in your markup. 
+              Want a blue background with some padding? Instead of writing a custom class and defining its styles in a separate stylesheet, you just add classes like 
+              bg-blue-500 and p-4 to your HTML element. This "utility-first" approach means you compose your designs by combining these small, focused classes. 
+              It might look a little dense at first glance, but the power lies in its efficiency: you can rapidly prototype, iterate, and build complex, responsive layouts
+              with incredible speed, all while ensuring a consistent design system without writing a single line of custom CSS in a separate file.
+              <br></br>
               So, if you're looking to streamline your development process, build bespoke designs without fighting a framework's opinions, and enjoy a more focused styling experience, Tailwind CSS is definitely worth exploring. It's a game-changer for many, turning styling into a fluid and intuitive part of building your web projects. Give it a shot – you might just wonder how you ever lived without it!
             </p>
           </div>
